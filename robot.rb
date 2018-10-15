@@ -1,5 +1,5 @@
 class Robot
-
+  # init
   def initialize
     @todos = []
   end
