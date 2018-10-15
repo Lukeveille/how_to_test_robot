@@ -78,9 +78,9 @@ class TestRobot < MiniTest::Test
     # arrange
     test_robot = Robot.new
     # act
-    act = test_robot.workday?(test_robot.day_off)
+    act = test_robot.workday?(test_robot)
     # assert
-    refute(act)
+    assert(act)
   end
 
 end
